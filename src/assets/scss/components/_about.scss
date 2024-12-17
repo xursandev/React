@@ -1,0 +1,94 @@
+.about {
+    &-top__toptitle {
+        margin-top: 146px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 172%;
+        text-transform: capitalize;
+        color: #272d38;
+        text-align: center;
+        margin-bottom: 16px;
+
+        @media screen and ( max-width:600px) {
+            margin-top: 50px;
+        }
+    }
+
+    &-top__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #272d38;
+        margin-bottom: 38px;
+    }
+
+    &-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        @media screen and (max-width:760px) {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        @media screen and (max-width:900px) {
+            width: 100%;
+            flex-direction: column;
+         }
+    }
+
+    &-bottom-box {
+        width: 300px;
+        height: 300px;
+        background-color: #f3f1f1;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 0 20px;
+
+        @media screen and ( max-width:600px) {
+            margin-bottom: 18px;
+        }
+
+        @media screen and (max-width:760px) {
+            margin-bottom: 15px;
+            width: 70%;
+        }
+
+        @media screen and (max-width:900px) {
+            margin-bottom: 10px;
+         }
+    }
+
+    &-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 153%;
+        text-transform: capitalize;
+        color: #272d38;
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    &-desc {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 130%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #272d38;
+    }
+
+    &-bottom{
+        @media screen and ( max-width:600px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+}
